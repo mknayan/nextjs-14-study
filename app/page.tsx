@@ -4,7 +4,7 @@ import coffee from "@/public/images/example.png";
 import Link from "next/link";
 import ProductCard from "./components/ProductCard";
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+// import { authOptions } from "./api/auth/[...nextauth]/route";
 import { Metadata } from "next";
 
 import { useState } from "react";
